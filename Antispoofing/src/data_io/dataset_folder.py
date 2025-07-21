@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time : 20-6-4 下午4:04
-# @Author : zhuying
-# @Company : Minivision
-# @File : dataset_folder.py
-# @Software : PyCharm
-'''
+
 import cv2
 import torch
 from torchvision import datasets
@@ -63,4 +57,3 @@ def generate_FT(image):
             minn = min(fimg[i])
     fimg = (fimg - minn+1) / (maxx - minn+1)
     return fimg
-    '''
