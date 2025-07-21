@@ -1,4 +1,4 @@
-'''# test.py
+# test.py
 import os
 import cv2
 import numpy as np
@@ -82,4 +82,3 @@ if __name__ == "__main__":
     image = cv2.imread(args.image_name)
     result = test(image, args.model_dir, args.device_id)
     print("Result:", result)
-    '''
