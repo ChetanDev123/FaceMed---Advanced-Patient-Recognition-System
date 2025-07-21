@@ -1,0 +1,7 @@
+database:
+  backend_ai:
+    dbname: backend_ai
+    user: postgres
+    password: jDrv73ltVuo42RCoqX4C
+    host: 192.168.120.51
+    port: 5432

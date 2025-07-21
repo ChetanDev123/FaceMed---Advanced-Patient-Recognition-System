@@ -1,0 +1,17 @@
+flask
+flask-cors
+gunicorn
+httpx
+joblib
+numpy
+pandas
+psycopg2-binary
+pyyaml
+requests
+scikit-learn
+sqlalchemy
+setuptools
+dlib
+face_recognition_models==0.3.0
+face_recognition
+Pillow
