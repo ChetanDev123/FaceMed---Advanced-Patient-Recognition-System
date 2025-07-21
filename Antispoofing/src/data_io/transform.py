@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time : 20-6-4 下午4:19
-# @Author : zhuying
-# @Company : Minivision
-# @File : transform.py
-# @Software : PyCharm
-'''
+
 from __future__ import division
 import math
 import random
@@ -343,5 +337,5 @@ class RandomRotation(object):
         angle = self.get_params(self.degrees)
 
         return F.rotate(img, angle, self.resample, self.expand, self.center)
-'''
+
 
