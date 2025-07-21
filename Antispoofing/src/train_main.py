@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time : 20-6-4 上午9:59
-# @Author : zhuying
-# @Company : Minivision
-# @File : train_main.py
-# @Software : PyCharm
-'''
+
 import torch
 from torch import optim
 from torch.nn import CrossEntropyLoss, MSELoss
@@ -144,4 +138,3 @@ class TrainMain:
         save_path = self.conf.model_path
         torch.save(self.model.state_dict(), save_path + '/' +
                    ('{}_{}_model_iter-{}.pth'.format(time_stamp, extra, self.step)))
-'''
