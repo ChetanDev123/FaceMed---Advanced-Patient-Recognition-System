@@ -1,9 +1,4 @@
-'''# -*- coding: utf-8 -*-
-# @Time : 20-6-3 下午5:14
-# @Author : zhuying
-# @Company : Minivision
-# @File : MultiFTNet.py
-# @Software : PyCharm
+
 from torch import nn
 import torch.nn.functional as F
 from Antispoofing.src.model_lib.MiniFASNet import MiniFASNetV1,MiniFASNetV2,MiniFASNetV1SE,MiniFASNetV2SE
@@ -77,4 +72,3 @@ class MultiFTNet(nn.Module):
             return cls, ft
         else:
             return cls
-'''
