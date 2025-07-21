@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time : 20-6-9 上午10:20
-# @Author : zhuying
-# @Company : Minivision
-# @File : anti_spoof_predict.py
-# @Software : PyCharm
-'''
+
 import os
 import cv2
 import math
@@ -93,7 +87,7 @@ class AntiSpoofPredict(Detection):
             result = self.model.forward(img)
             result = F.softmax(result).cpu().numpy()
         return result
-'''
+
 
 
 
