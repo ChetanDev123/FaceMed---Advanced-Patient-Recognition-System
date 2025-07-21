@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time : 20-6-4 下午3:40
-# @Author : zhuying
-# @Company : Minivision
-# @File : dataset_loader.py
-# @Software : PyCharm
-'''
+
 from torch.utils.data import DataLoader
 from Antispoofing.src.data_io.dataset_folder import DatasetFolderFT
 from Antispoofing.src.data_io import transform as trans
@@ -31,4 +25,3 @@ def get_train_loader(conf):
         pin_memory=True,
         num_workers=16)
     return train_loader
-'''
