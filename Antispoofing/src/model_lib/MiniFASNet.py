@@ -1,9 +1,4 @@
-'''# -*- coding: utf-8 -*-
-# @Time : 20-6-3 下午4:45
-# @Author : zhuying
-# @Company : Minivision
-# @File : MiniFASNet.py
-# @Software : PyCharm
+
 import torch
 import torch.nn.functional as F
 from torch.nn import Linear, Conv2d, BatchNorm1d, BatchNorm2d, PReLU, ReLU, Sigmoid, \
@@ -294,4 +289,3 @@ def MiniFASNetV1SE(embedding_size=128, conv6_kernel=(7, 7),
 def MiniFASNetV2SE(embedding_size=128, conv6_kernel=(7, 7),
                    drop_p=0.75, num_classes=4, img_channel=3):
     return MiniFASNetSE(keep_dict['1.8M_'], embedding_size, conv6_kernel,drop_p, num_classes, img_channel)
-'''
