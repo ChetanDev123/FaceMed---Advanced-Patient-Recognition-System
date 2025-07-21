@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time : 20-6-4 下午6:18
-# @Author : zhuying
-# @Company : Minivision
-# @File : functional.py
-# @Software : PyCharm
-'''
+
 from __future__ import division
 import torch
 from PIL import Image, ImageOps, ImageEnhance
@@ -587,4 +581,3 @@ def to_grayscale(img, num_output_channels=1):
         raise ValueError('num_output_channels should be either 1 or 3')
 
     return img
-'''
