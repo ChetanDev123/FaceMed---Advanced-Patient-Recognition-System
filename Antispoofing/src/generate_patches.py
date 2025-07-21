@@ -1,13 +1,8 @@
-# -*- coding: utf-8 -*-
-# @Time : 20-6-9 下午3:06
-# @Author : zhuying
-# @Company : Minivision
-# @File : test.py
-# @Software : PyCharm
+
 """
 Create patch from original input image by using bbox coordinate
 """
-'''
+
 import cv2
 import numpy as np
 
@@ -63,4 +58,3 @@ class CropImage:
                           left_top_x: right_bottom_x+1]
             dst_img = cv2.resize(img, (out_w, out_h))
         return dst_img
-'''
