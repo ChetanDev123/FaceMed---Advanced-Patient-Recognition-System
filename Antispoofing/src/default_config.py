@@ -1,14 +1,7 @@
-# -*- coding: utf-8 -*-
-# @Time : 20-6-4 上午9:12
-# @Author : zhuying
-# @Company : Minivision
-# @File : default_config.py
-# @Software : PyCharm
-# --*-- coding: utf-8 --*--
+
 """
 default config for training
 """
-'''
 import torch
 from datetime import datetime
 from easydict import EasyDict
@@ -71,4 +64,3 @@ def update_config(args, conf):
     conf.log_path = log_path
     conf.job_name = job_name
     return conf
-'''
