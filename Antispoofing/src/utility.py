@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-# @Time : 20-6-4 下午2:13
-# @Author : zhuying
-# @Company : Minivision
-# @File : utility.py
-# @Software : PyCharm
-'''
+
 from datetime import datetime
 import os
 
@@ -39,4 +33,3 @@ def parse_model_name(model_name):
 def make_if_not_exist(folder_path):
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
-'''
